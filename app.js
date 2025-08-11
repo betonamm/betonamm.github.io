@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        const apiUrl = `https://betonamm.github.io/tudien_api/api/${combo}.json`;
+        const apiUrl = `https://bunchaway.github.io/tudien_api/api/${combo}.json`;
 
         try {
             const response = await fetch(apiUrl);
